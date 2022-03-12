@@ -2,6 +2,8 @@
 
 I have forked [Variational Autoencoder](https://github.com/developershutt/Autoencoders/tree/main/4%20-%20Variational%20Autoencoder) project and explored using VAE for Abstract Art Generation. VAE can work as Generative Adversarial Network which can be used for generating new images using the latent space of the image dataset it is trained with. When a random noise from standard distribution is passed to the decoder of VAE, it generates a new image sampled from latent space.
 
+Please refer to file Art.generator.ipynb for this project. You can also take a look at original implementation in Variational Autoencoder.ipynb.
+
 ## Dataset
 Below image dataset from kaggle is used to train the model.
 https://www.kaggle.com/greg115/abstract-art
@@ -16,6 +18,8 @@ One technique that I tried to increase image sharpness was to balance KL diverge
 The original dataset used in this project was trained on 60k anime images and I believe that given the images being used for art generation model are abstract. Either a larger dataset or augmented data can help to further improve the quality of generated images.
 
 I wish to further explore this topic.
+
+
 
 
 
